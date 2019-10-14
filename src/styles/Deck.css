@@ -1,3 +1,4 @@
+/**** General ****/
 * {
   box-sizing: border-box;
 }
@@ -15,6 +16,8 @@ body {
   overflow: hidden;
 }
 
+
+/**** Root Div ****/
 #root {
   background: salmon;
   background-image: "images/background.jpg";
@@ -27,7 +30,9 @@ body {
     auto;
 }
 
-#root > div {
+
+/**** Cards ****/
+.card-container {
   position: absolute;
   width: 80vw;
   height: 80vh;
@@ -41,12 +46,26 @@ body {
   justify-content: center;
 }
 
-button[aria-label="previous"],
-button[aria-label="next"] {
-  background: salmon !important;
-  color: black !important;
+.card {
+  overflow-y: scroll;
+  padding: 25px;
+  background-color: white;
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 80vw;
+  max-width: 400px;
+  height: 80vh;
+  max-height: 550px;
+  align-items: center;
+  will-change: transform;
+  border-radius: 10px;
+  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4),
+    0 10px 10px -10px rgba(50, 50, 73, 0.3);
 }
 
+
+/**** Text ****/
 h2 {
   width: 100%;
   display: inline-block;
@@ -71,6 +90,8 @@ h5 b {
   color:#666666;
 }
 
+
+/**** Images ***/
 .img-container {
   width: 100%;
 }
@@ -86,40 +107,8 @@ h5 b {
   border-radius: 50%;
 }
 
-.home {
-  overflow-y: scroll;
-  padding: 25px;
-  background-color: white;
-  background-size: auto 85%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 80vw;
-  max-width: 400px;
-  height: 80vh;
-  max-height: 550px;
-  align-items: center;
-  will-change: transform;
-  border-radius: 10px;
-  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4),
-    0 10px 10px -10px rgba(50, 50, 73, 0.3);
-}
 
-.projects {
-  padding: 25px;
-  background-color: gray;
-  background-size: auto 85%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 80vw;
-  max-width: 375px;
-  height: 80vh;
-  max-height: 500px;
-  will-change: transform;
-  border-radius: 10px;
-  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4),
-    0 10px 10px -10px rgba(50, 50, 73, 0.3);
-}
-
+/**** Tags ****/
 .tag-container {
   display: inline-block;
   text-align: center;
@@ -140,8 +129,7 @@ h5 b {
 }
 
 
-
-
+/**** Icon Links ****/
 ul.icons {
   cursor: default;
   list-style: none;
@@ -151,12 +139,10 @@ ul.icons {
   margin: 0;
   padding: 0;
 }
-
 ul.icons li {
   display: inline-block;
   padding: 0.5em;
 }
-
 ul.icons li a {
   position: relative;
   width: 3.75em;
@@ -167,7 +153,6 @@ ul.icons li a {
   color: #ffffff;
   text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
 }
-
 ul.icons li a:before {
   position: absolute;
   top: 0; 
@@ -179,25 +164,21 @@ ul.icons li a:before {
   text-align: center;
   text-indent: 0;
 }
-
 ul.icons li a:hover {
   border-color: transparent;
 }
 
 
-
-
+/**** List Links ****/
 ul.ilink {
   width: 100%;
   list-style: none;
   padding-left: 0;
 }
-
 ul.ilink li {
   text-align: center;
   line-height: 1.5;
 }
-
 ul.ilink li a {
   height: 100%;
   font-size: 0.9rem;
@@ -205,7 +186,6 @@ ul.ilink li a {
   color: #777777;
   transition: color 0.4s ease;
 }
-
 ul.ilink li a:hover {
   cursor: pointer;
   color: #aaaaaa;

@@ -9,6 +9,7 @@ class Card extends React.Component {
 
     return (
       <animated.div
+        className="card-container"
         key={i}
         style={{
           transform: interpolate(
@@ -18,7 +19,7 @@ class Card extends React.Component {
         }}
       >
         <animated.div
-          className="home"
+          className="card"
           {...bind(i)}
           style={{
             transform: interpolate([rot, scale], trans)
