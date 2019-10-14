@@ -11,3 +11,5 @@ reverse scroll
 better updated content
 links match font
 create UX/UI common theme colors
+mobile optimized
+better standards and commented css

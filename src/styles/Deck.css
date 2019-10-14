@@ -16,8 +16,8 @@ body {
 }
 
 #root {
-  /* background: salmon; */
-  background-image: url("../res/background.jpg");
+  background: salmon;
+  background-image: "images/background.jpg";
   position: fixed;
   overflow: hidden;
   width: 100%;
@@ -33,7 +33,7 @@ body {
   height: 80vh;
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 10vh;
+  margin-top: 13vh;
   margin-bottom: 10vh;
   will-change: transform;
   display: flex;

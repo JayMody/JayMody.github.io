@@ -12,7 +12,7 @@ export default [
 {
   title: "Opensource",
   text: "As someone who relies and greatly benefits from open source software, I believe it's important to give back, so here's a short list of project I've made contributions to:",
-  pic: require('images/opensource.png'),
+  pic: 'images/opensource.png',
   linkstyle: "ilink",
   links: [
     {
@@ -35,7 +35,7 @@ export default [
 {
   title: "Brawler64",
   text: "PvE beat ’em up video game featuring a controlled <b>game loop</b>, <b>graphics</b>, <b>sound</b>, and a <b>decision-tree computer opponent</b>.",
-  pic: require('images/brawlerico.png'),
+  pic: 'images/brawlerico.png',
   linkstyle: "ilink",
   links: [
     {
@@ -66,7 +66,7 @@ export default [
 {
   title: "Leetcode",
   text: "In my spare time, I have fun times with <b>algorithims</b>, <b>data structures</b>, and <b>problem solving</b> on my joruney to complete a leetcode problem a day (keyword \"try\").",
-  pic: require('images/leetcode.png'),
+  pic: 'images/leetcode.png',
   linkstyle: "ilink",
   links: [
     {
@@ -101,7 +101,7 @@ export default [
 {
   title: "MLP Vizualizer",
   text: "A visualization of how a <b>Multi-Layer Perceptron Neural Network</b> classifies clusters of data.",
-  pic: require('images/mlp.gif'),
+  pic: 'images/mlp.gif',
   linkstyle: "ilink",
   links: [
     {
@@ -131,7 +131,7 @@ export default [
 {
   title: "HackWescam",
   text: "My first ever hackathon! The competition involved complete various challenges involving <b>drone control</b>, <b>object detection</b>, and <b>object recognition</b>. It was an amazing first hackathon and we ended up <b>placing 1st",
-  pic: require('images/drone.jpg'),
+  pic: 'images/drone.jpg',
   linkstyle: "ilink",
   links: [
     {
@@ -162,7 +162,7 @@ export default [
 {
   title: "Genomics NLP",
   text: "Adapting <b>Google’s BERT</b> model to get contextual embeddings for <b>genomic data</b>, trained on <b>cloud TPUs</b>. Packaged and documented for <b>open source release</b> as a tool for the research community",
-  pic: require('images/bert.png'),
+  pic: 'images/bert.png',
   linkstyle: "ilink",
   links: [
     {
@@ -192,7 +192,7 @@ export default [
 {
   title: "A little about me ...",
   text: "I'm a second year <b>software engineering student</b> and a <b>data scientist</b> at <b>McMaster University</b>.\n\nOther than hacking away on my laptop, I also enjoy maintaining my passions for <b>music</b>, <b>travel</b>, <b>personal fitness</b>, <b>sports</b>, <b>reading</b> and <b>video games</b>.\n\nCheck out my <a target=\"_blank\" href=\"jaymody_resume.pdf\">resume</a> or keep swiping to learn more about some cool project I've worked on.",
-  pic: require('images/music.png'),
+  pic: 'images/music.png',
   linkstyle: "ilink",
   links: [
   ],
@@ -205,7 +205,7 @@ export default [
 {
   title: "Jay Mody",
   text: "Hello there!\nYou've stumbled across my personal website.\n<b>Swipe</b> to learn more about me.",
-  pic: require('images/avatar.jpg'),
+  pic: 'images/avatar.jpg',
   linkstyle: "icons",
   links: [
     {
