@@ -1,0 +1,13 @@
+alt icons for github project links an articles
+music player
+custom cards
+pan out to categories
+persitent title text for section
+buttons for mouseclicks
+
+smoother link clicking
+use keyboard or buttons to scroll left or right
+reverse scroll
+better updated content
+links match font
+create UX/UI common theme colors
