@@ -33,34 +33,44 @@ body {
 
 /**** Cards ****/
 .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   position: absolute;
   width: 80vw;
   height: 80vh;
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 13vh;
+  margin-top: 15vh;
   margin-bottom: 10vh;
   will-change: transform;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
+.content-container {}
+
 .card {
-  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  overflow: hidden;
   padding: 25px;
+
   background-color: white;
   background-size: auto 85%;
   background-repeat: no-repeat;
   background-position: center center;
+
   width: 80vw;
+  min-width: 300px;
   max-width: 400px;
   height: 80vh;
+
+  min-height: 400px;
   max-height: 550px;
-  align-items: center;
+  
   will-change: transform;
   border-radius: 10px;
-  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4),
+  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.3),
     0 10px 10px -10px rgba(50, 50, 73, 0.3);
 }
 
@@ -89,21 +99,29 @@ h5 b {
   font-weight: 1000;
   color:#666666;
 }
+@media only screen 
+and (max-width : 100px) {
+  h2 {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+  }
+  h5 {
+    margin-bottom: 15px;
+    font-size: .8em;
+  }
+}
 
 
 /**** Images ***/
-.img-container {
-  width: 100%;
-}
-
 .round-img {
   display: block;
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
   pointer-events: none;
-  height: 175px;
-  width: 175px;
+  height: 30%;
+  max-height: 175px;
+  max-width: 175px;
   border-radius: 50%;
 }
 
@@ -127,6 +145,15 @@ h5 b {
   padding: 4px 10px 4px 10px;
   margin: 8px;
 }
+@media only screen 
+and (max-width : 100px) {
+  .tag-container {
+    margin-bottom: 15px;
+  }
+  .tag {
+    font-size: 0.7rem;
+  }
+}
 
 
 /**** Icon Links ****/
@@ -145,27 +172,26 @@ ul.icons li {
 }
 ul.icons li a {
   position: relative;
-  width: 3.75em;
-  height: 3.75em;
+  width: 3em;
+  height: 3em;
+  line-height: 2.9em;;
+  font-size: 1.4rem;
   border-radius: 50%;
   border: solid 1px #c8cccf;
-  line-height: 3.75em;;
   color: #ffffff;
   text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
 }
-ul.icons li a:before {
-  position: absolute;
-  top: 0; 
-  left: 0;
-  width: inherit;
-  height: inherit;
-  font-size: 1.85rem;
-  line-height: inherit;
-  text-align: center;
-  text-indent: 0;
-}
 ul.icons li a:hover {
   border-color: transparent;
+}
+@media only screen 
+and (max-width : 100px) {
+  ul.icons li a {
+    width: 2.4em;
+    height: 2.4em;
+    line-height: 2.3em;;
+    font-size: 1.2rem;
+  }
 }
 
 
@@ -189,4 +215,10 @@ ul.ilink li a {
 ul.ilink li a:hover {
   cursor: pointer;
   color: #aaaaaa;
+}
+@media only screen 
+and (max-width : 100px) {
+  ul.ilink li a {
+    font-size: 0.8rem;
+  }
 }

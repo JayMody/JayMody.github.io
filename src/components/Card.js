@@ -25,11 +25,8 @@ class Card extends React.Component {
             transform: interpolate([rot, scale], trans)
           }}
         >
-          <div>
-            <div className="img-container">
-              <img className="round-img" src={pic} alt="pic" />
-            </div>
-
+          <div className="content-container">
+            <img className="round-img" src={pic} alt="pic" />
 
             <h2>{title}</h2>
 
