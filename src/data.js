@@ -65,7 +65,7 @@ export default [
 ////////// Leetcode //////////
 {
   title: "Leetcode",
-  text: "In my spare time, I have fun times with <b>algorithims</b>, <b>data structures</b>, and <b>problem solving</b> on my joruney to complete a leetcode problem a day (keyword \"try\").",
+  text: "In my spare time, I have fun times with <b>algorithims</b>, <b>data structures</b>, and <b>problem solving</b> on my journey to complete a leetcode problem a day (keyword \"try\").",
   pic: 'images/leetcode.png',
   linkstyle: "ilink",
   links: [

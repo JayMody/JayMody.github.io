@@ -12,7 +12,7 @@ const to = i => ({
   x: 0,
   y: i * -5,
   scale: 1,
-  rot: -10 + Math.random() * 20,
+  rot: -8 + Math.random() * 16,
   delay: i * 100
 });
 const from = i => ({ rot: 0, scale: 1.5, y: -1000 });
