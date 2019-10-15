@@ -10,7 +10,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 const to = i => ({
   x: 0,
-  y: i * -10,
+  y: i * -5,
   scale: 1,
   rot: -10 + Math.random() * 20,
   delay: i * 100
