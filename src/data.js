@@ -65,7 +65,7 @@ export default [
 ////////// Leetcode //////////
 {
   title: "Leetcode",
-  text: "In my spare time, I have fun times with <b>algorithims</b>, <b>data structures</b>, and <b>problem solving</b> on my journey to complete a leetcode problem a day (keyword \"try\").",
+  text: "In my spare time, I have fun times with <b>algorithims</b>, <b>data structures</b>, and <b>problem solving</b> on my journey to complete a leetcode problem a day (keyword \"try\", oops).",
   pic: 'images/leetcode.png',
   linkstyle: "ilink",
   links: [
@@ -100,7 +100,7 @@ export default [
 ////////// MLP Visualizer //////////
 {
   title: "MLP Vizualizer",
-  text: "A visualization of how a <b>Multi-Layer Perceptron Neural Network</b> classifies clusters of data.",
+  text: "A visualization of how a <b>multi-layer perceptron neural network</b> classifies clusters of data.",
   pic: 'images/mlp.gif',
   linkstyle: "ilink",
   links: [
@@ -130,7 +130,7 @@ export default [
 ////////// Hack Wescam //////////
 {
   title: "HackWescam",
-  text: "My first ever hackathon! The competition involved complete various challenges involving <b>drone control</b>, <b>object detection</b>, and <b>object recognition</b>. It was an amazing first hackathon and we ended up <b>placing 1st",
+  text: "My first ever hackathon! The competition involved completing various challenges involving <b>drone control</b>, <b>object detection</b>, and <b>object recognition</b>. It was an amazing first hackathon and we ended up <b>placing 1st",
   pic: 'images/drone.jpg',
   linkstyle: "ilink",
   links: [
@@ -140,7 +140,7 @@ export default [
       icon: "fa brand fa-github",
     },
     {
-      text: " Article",
+      text: " Press Release",
       url: "https://www.wescam.com/blog/wescam-hackathon-drone-swarm/",
       icon: "fa fa-newspaper-o",
     },
@@ -158,40 +158,48 @@ export default [
 },
 
 
-////////// Sesame //////////
+////////// Magarvey Lab //////////
 {
-  title: "Genomics NLP",
-  text: "Adapting <b>Google’s BERT</b> model to get contextual embeddings for <b>genomic data</b>, trained on <b>cloud TPUs</b>. Packaged and documented for <b>open source release</b> as a tool for the research community",
-  pic: 'images/bert.png',
+  title: "Biochemistry x AI Research",
+  text: "My research with the <b>Magarvey Lab</b> at McMaster involves the use of machine learning to accelerate the process of <b>drug discovery</b>.\n\nSpecifically, I study the intersection between <b>natural language processing</b> and the \"language\" of bacterial <b>genes</b>.",
+  pic: 'https://i.imgur.com/pmLpXyy.png',
   linkstyle: "ilink",
-  links: [
-    {
-      text: " Github",
-      url: "https://github.com/magarveylab",
-      icon: "fa brand fa-github",
-    },
-  ],
-  tags: [
-    {
-      text: "Python",
-      color: color_blue,
-    },
-    {
-      text: "Tensorflow",
-      color: color_green,
-    },
-    {
-      text: "GCloud",
-      color: color_black,
-    }
-  ],
+  links: [],
+  tags: [],
 },
 
 
-////////// Sesame //////////
+////////// Leaders Prize //////////
+{
+  title: "Leaders Prize",
+  text: "I Placed <b>1st overall</b> among 150+ teams in the first round of <b>Canada's Largeset AI Competition</b>, Leaders Prize, which offers <b>$1,000,000</b> to the individual (or team) that most effectively automates the detection of fake news using artificial intelligence. The final round results come out this June, wish me luck!",
+  pic: 'https://i.imgur.com/kzk2452.jpg',
+  linkstyle: "ilink",
+  links: [
+    {
+      text: " Leaders Prize Website",
+      url: "https://leadersprize.truenorthwaterloo.com/en/",
+      icon: "fa solid fa-globe",
+    },
+    {
+      text: " McMaster Daily News",
+      url: "https://leadersprize.truenorthwaterloo.com/en/",
+      icon: "fa fa-newspaper-o",
+    },
+    {
+      text: " Press Release",
+      url: "https://www.communitech.ca/press-release/top-10-teams-vying-for-leaders-prize-announced-2/",
+      icon: "fa fa-newspaper-o",
+    },
+  ],
+  tags: [],
+},
+
+
+////////// About Me //////////
 {
   title: "A little about me ...",
-  text: "I'm a second year <b>software engineering student</b> and a <b>data scientist</b> at <b>McMaster University</b>.\n\nOther than hacking away on my laptop, I also enjoy maintaining my passions for <b>music</b>, <b>travel</b>, <b>personal fitness</b>, <b>sports</b>, <b>reading</b> and <b>video games</b>.\n\nCheck out my <a target=\"_blank\" href=\"jaymody_resume.pdf\">resume</a> or keep swiping to learn more about some cool project I've worked on.",
+  text: "I'm a second year <b>software engineering student</b> and a <b>data scientist</b> at <b>McMaster University</b>.\n\nWhen I'm not hacking away on my laptop, I also enjoy maintaining my passions for <b>music</b>, <b>travel</b>, <b>personal fitness</b>, <b>sports</b>, <b>reading</b> and <b>video games</b>.\n\nCheck out my <a target=\"_blank\" href=\"jaymody_resume.pdf\">resume</a> or keep swiping to learn about cool stuff I'm doing/have done.",
   pic: 'images/music.png',
   linkstyle: "ilink",
   links: [
