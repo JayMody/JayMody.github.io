@@ -35,7 +35,7 @@ body {
 .card-container {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   position: absolute;
   width: 80vw;
   height: 80vh;
@@ -51,7 +51,7 @@ body {
 .card {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   overflow: hidden;
   padding: 25px;
 
@@ -67,7 +67,7 @@ body {
 
   min-height: 400px;
   max-height: 550px;
-  
+
   will-change: transform;
   border-radius: 10px;
   box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.2),
@@ -99,7 +99,7 @@ h5 b {
   font-weight: 1000;
   color:#666666;
 }
-@media only screen 
+@media only screen
 and (max-width : 500px) {
   h2 {
     margin-bottom: 15px;
@@ -145,7 +145,7 @@ and (max-width : 500px) {
   padding: 4px 10px 4px 10px;
   margin: 8px;
 }
-@media only screen 
+@media only screen
 and (max-width : 500px) {
   .tag-container {
     margin-bottom: 15px;
@@ -184,7 +184,7 @@ ul.icons li a {
 ul.icons li a:hover {
   border-color: transparent;
 }
-@media only screen 
+@media only screen
 and (max-width : 1000px) {
   ul.icons li a {
     width: 2.4em;
@@ -216,7 +216,7 @@ ul.ilink li a:hover {
   cursor: pointer;
   color: #aaaaaa;
 }
-@media only screen 
+@media only screen
 and (max-width : 500px) {
   ul.ilink li a {
     font-size: 0.8rem;
