@@ -6,7 +6,7 @@ import Card from "./Card";
 import data from "../data.js";
 
 import "../styles/Deck.css";
-import 'font-awesome/css/font-awesome.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const to = i => ({
   x: 0,

@@ -12,18 +12,23 @@ export default [
 {
   title: "Opensource",
   text: "As someone who relies and greatly benefits from open source software, I believe it's important to give back, so here's a short list of project I've made contributions to:",
-  pic: 'images/opensource.png',
+  pic: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
   linkstyle: "ilink",
   links: [
     {
       text: " numpy-ml",
       url: "https://github.com/ddbourgin/numpy-ml",
-      icon: "fa brand fa-github",
+      icon: "fab fa-github",
     },
     {
       text: " tensorflow/estimator",
       url: "https://github.com/tensorflow/estimator",
-      icon: "fa brand fa-github",
+      icon: "fab fa-github",
+    },
+    {
+        text: " huggingface/tokenizers",
+        url: "https://github.com/huggingface/tokenizers",
+        icon: "fab fa-github",
     },
   ],
   tags: [
@@ -31,32 +36,20 @@ export default [
 },
 
 
-////////// Brawler64 //////////
+////////// StackOverflow //////////
 {
-  title: "Brawler64",
-  text: "PvE beat ’em up video game featuring a controlled <b>game loop</b>, <b>graphics</b>, <b>sound</b>, and a <b>decision-tree computer opponent</b>.",
-  pic: 'images/brawlerico.png',
+  title: "StackOverflow",
+  text: "Occasionally, when I'm feeling particularly grateful that my exact problem was solved by a stack overflow post, I'll write answers to other people's questions (that future me will probably end up googling at some point).",
+  pic: 'https://cdn4.iconfinder.com/data/icons/miu-gloss-social/60/stackoverflow-512.png',
   linkstyle: "ilink",
   links: [
     {
-      text: " Github",
-      url: "https://github.com/JayMody/Brawler64",
-      icon: "fa brand fa-github",
+      text: " StackOverflow Profile",
+      url: "https://stackoverflow.com/users/edit/11070463",
+      icon: "fab fa-stack-overflow",
     },
   ],
   tags: [
-    {
-      text: "Java",
-      color: color_yellow,
-    },
-    {
-      text: "SWT",
-      color: color_green,
-    },
-    {
-      text: "OOP",
-      color: color_black,
-    },
   ],
 },
 
@@ -65,14 +58,14 @@ export default [
 ////////// Leetcode //////////
 {
   title: "Leetcode",
-  text: "In my spare time, I have fun times with <b>algorithims</b>, <b>data structures</b>, and <b>problem solving</b> on my journey to complete a leetcode problem a day (keyword \"try\", oops).",
+  text: "In my spare time, I like to try my hand at some leetcode problems. I'm probably more proud of the autofilling table in the README.md of my leetcode github repo than I am of my actual solutions.",
   pic: 'images/leetcode.png',
   linkstyle: "ilink",
   links: [
     {
       text: " Github",
       url: "https://github.com/JayMody/LeetCode",
-      icon: "fa brand fa-github",
+      icon: "fab fa-github",
     },
     {
       text: " Leetcode Profile",
@@ -97,62 +90,46 @@ export default [
 },
 
 
-////////// MLP Visualizer //////////
+////////// Hackathons //////////
 {
-  title: "MLP Vizualizer",
-  text: "A visualization of how a <b>multi-layer perceptron neural network</b> classifies clusters of data.",
-  pic: 'images/mlp.gif',
+  title: "Hackathon Enthusiast",
+  text: "I've been to my fair share of hackathons and they're always a ton of fun. Below you can find some of my favourite hackathon projects I've created (as well as my devpost profile). Feel free to check em out!",
+  pic: 'https://cdn.iconscout.com/icon/free/png-512/dev-post-555431.png',
   linkstyle: "ilink",
   links: [
     {
-      text: " Github",
-      url: "https://github.com/JayMody/MLP-Visualizer",
-      icon: "fa brand fa-github",
-    },
-  ],
-  tags: [
-    {
-      text: "Python",
-      color: color_blue,
+      text: " Devpost Profile",
+      url: "https://devpost.com/jaymody",
+      icon: "fab fa-dev",
     },
     {
-      text: "SKLearn",
-      color: color_green,
+      text: " MicroScan",
+      url: "https://github.com/jaymody/microscan",
+      icon: "fab fa-github",
     },
     {
-      text: "NumPy",
-      color: color_black,
-    },
-  ],
-},
-
-
-////////// Hack Wescam //////////
-{
-  title: "HackWescam",
-  text: "My first ever hackathon! The competition involved completing various challenges involving <b>drone control</b>, <b>object detection</b>, and <b>object recognition</b>. It was an amazing first hackathon and we ended up <b>placing 1st",
-  pic: 'images/drone.jpg',
-  linkstyle: "ilink",
-  links: [
-    {
-      text: " Github",
-      url: "https://github.com/JayMody/Hackwescam",
-      icon: "fa brand fa-github",
+      text: " inFlightful",
+      url: "https://github.com/MaanavD/inFlightful",
+      icon: "fab fa-github",
     },
     {
-      text: " Press Release",
+      text: " Drone Swarm",
       url: "https://www.wescam.com/blog/wescam-hackathon-drone-swarm/",
-      icon: "fa fa-newspaper-o",
+      icon: "far fa-newspaper",
     },
   ],
   tags: [
     {
-      text: "C++",
+        text: "Sleep?",
+        color: color_blue,
+    },
+    {
+      text: "IndexOutOfBounds",
       color: color_red,
     },
     {
-      text: "OpenCV",
-      color: color_green,
+      text: "Caffiene",
+      color: color_yellow,
     },
   ],
 },
@@ -160,46 +137,78 @@ export default [
 
 ////////// Magarvey Lab //////////
 {
-  title: "Biochemistry x AI Research",
-  text: "My research with the <b>Magarvey Lab</b> at McMaster involves the use of machine learning to accelerate the process of <b>drug discovery</b>.\n\nSpecifically, I study the intersection between <b>natural language processing</b> and the \"language\" of bacterial <b>genes</b>.",
-  pic: 'https://i.imgur.com/pmLpXyy.png',
+  title: "ML Engineer",
+  text: "I work as an ML Engineer at <b>Magarvey Labs</b> based in McMaster. We research novel strategies to accelerate the process of <b>drug discovery</b> using ML and deep learning. It's pretty <b>GENEius</b> stuff (pun intended).",
+  pic: 'https://i.ibb.co/0mpWT7F/temp.png',
   linkstyle: "ilink",
-  links: [],
-  tags: [],
+  links: [
+    {
+        text: " Github",
+        url: "https://github.com/magarveylab",
+        icon: "fab fa-github"
+    }
+  ],
+  tags: [
+    {
+        text: "Python",
+        color: color_blue,
+    },
+    {
+      text: "Tensorflow",
+      color: color_yellow,
+    },
+    {
+      text: "Research",
+      color: color_red,
+    },
+  ],
 },
 
 
 ////////// Leaders Prize //////////
 {
   title: "Leaders Prize",
-  text: "I Placed <b>1st overall</b> among 150+ teams in the first round of <b>Canada's Largeset AI Competition</b>, Leaders Prize, which offers <b>$1,000,000</b> to the individual (or team) that most effectively automates the detection of fake news using artificial intelligence. The final round results come out this June, wish me luck!",
+  text: "I'm currently working on fighting misinformation using AI through the Leader's Prize competition, <b>Canada's Largeset AI Competition</b>, which offers <b>$1,000,000</b> to the individual (or team) that most effectively automates the detection of fake news. I placed <b>1st overall</b> among 150+ teams in the first round. The final round ends in July, wish me luck!",
   pic: 'https://i.imgur.com/kzk2452.jpg',
   linkstyle: "ilink",
   links: [
     {
       text: " Leaders Prize Website",
       url: "https://leadersprize.truenorthwaterloo.com/en/",
-      icon: "fa solid fa-globe",
+      icon: "fa regular fa-globe",
     },
     {
       text: " McMaster Daily News",
       url: "https://leadersprize.truenorthwaterloo.com/en/",
-      icon: "fa fa-newspaper-o",
+      icon: "far fa-newspaper",
     },
     {
       text: " Press Release",
       url: "https://www.communitech.ca/press-release/top-10-teams-vying-for-leaders-prize-announced-2/",
-      icon: "fa fa-newspaper-o",
+      icon: "far fa-newspaper",
     },
   ],
-  tags: [],
+  tags: [
+    {
+        text: "Python",
+        color: color_blue,
+    },
+    {
+      text: "PyTorch",
+      color: color_red,
+    },
+    {
+      text: "Docker",
+      color: color_black,
+    },
+  ],
 },
 
 
 ////////// About Me //////////
 {
   title: "A little about me ...",
-  text: "I'm a second year <b>software engineering student</b> and a <b>data scientist</b> at <b>McMaster University</b>.\n\nWhen I'm not hacking away on my laptop, I also enjoy maintaining my passions for <b>music</b>, <b>travel</b>, <b>personal fitness</b>, <b>sports</b>, <b>reading</b> and <b>video games</b>.\n\nCheck out my <a target=\"_blank\" href=\"jaymody_resume.pdf\">resume</a> or keep swiping to learn about cool stuff I'm doing/have done.",
+  text: "I'm a second year <b>software engineering student</b> at <b>McMaster University</b> and an <b>ML Engineer</b> at <b>Magarvey Laboratories</b>.\n\nWhen I'm not hacking away on my laptop, I enjoy maintaining my passions for <b>music</b>, <b>travel</b>, <b>personal fitness</b>, <b>sports</b>, <b>reading</b> and <b>video games</b>.\n\nIf you're a recruiter please check out my <a target=\"_blank\" href=\"jaymody_resume.pdf\">resume</a> or swipe to learn about stuff I'm doing right now!",
   pic: 'images/music.png',
   linkstyle: "ilink",
   links: [
@@ -219,22 +228,22 @@ export default [
     {
       text: "",
       url: "https://github.com/jaymody",
-      icon: "fa brand fa-github",
+      icon: "fab fa-github",
     },
     {
       text: "",
       url: "https://linkedin.com/in/jaym",
-      icon: "fa brand fa-linkedin",
+      icon: "fab fa-linkedin-in",
     },
     {
       text: "",
       url: "mailto:JayKMody@gmail.com",
-      icon: "fa fa-envelope",
+      icon: "fas fa-envelope",
     },
     {
       text: "",
       url: "jaymody_resume.pdf",
-      icon: "fa fa-file",
+      icon: "fas fa-file",
     },
   ],
   tags: [

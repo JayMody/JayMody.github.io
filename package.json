@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "font-awesome": "^4.7.0",
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "gh-pages": "^2.1.1",
     "particles.js": "^2.0.0",
     "prop-types": "^15.7.2",
