@@ -50,7 +50,12 @@ class Card extends React.Component {
               <ul className={linkstyle}>
                 {links.map((link, index) => (
                   <li>
-                    <a href={link.url} target="_blank" className={link.icon}>
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={link.icon}
+                    >
                       {link.text}
                     </a>
                   </li>
