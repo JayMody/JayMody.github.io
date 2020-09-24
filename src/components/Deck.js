@@ -6,27 +6,28 @@ import Card from "./Card";
 import data from "../data.js";
 
 import "../styles/Deck.css";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
-const to = i => ({
+const to = (i) => ({
   x: 0,
   y: i * -5,
   scale: 1,
   rot: -8 + Math.random() * 16,
-  delay: i * 100
+  delay: i * 100,
 });
-const from = i => ({ rot: 0, scale: 1.5, y: -1000 });
+const from = (i) => ({ rot: 0, scale: 1.5, y: -1000 });
 
 const trans = (r, s) =>
-  `perspective(1500px) rotateX(10deg) rotateY(${r /
-    10}deg) rotateZ(${r}deg) scale(${s})`;
+  `perspective(1500px) rotateX(10deg) rotateY(${
+    r / 10
+  }deg) rotateZ(${r}deg) scale(${s})`;
 
 function Deck() {
   const [gone] = useState(() => new Set());
 
-  const [props, set] = useSprings(data.length, i => ({
+  const [props, set] = useSprings(data.length, (i) => ({
     ...to(i),
-    from: from(i)
+    from: from(i),
   }));
 
   const bind = useGesture(
@@ -36,7 +37,7 @@ function Deck() {
       delta: [xDelta],
       distance,
       direction: [xDir],
-      velocity
+      velocity,
     }) => {
       const trigger = velocity > 0.2;
 
@@ -44,7 +45,7 @@ function Deck() {
 
       if (!down && trigger) gone.add(index);
 
-      set(i => {
+      set((i) => {
         if (index !== i) return;
         const isGone = gone.has(index);
 
@@ -58,16 +59,16 @@ function Deck() {
           rot,
           scale,
           delay: undefined,
-          config: { friction: 50, tension: down ? 800 : isGone ? 200 : 500 }
+          config: { friction: 50, tension: down ? 800 : isGone ? 200 : 500 },
         };
       });
 
       if (!down && gone.size === data.length)
-        setTimeout(() => gone.clear() || set(i => to(i)), 600);
+        setTimeout(() => gone.clear() || set((i) => to(i)), 600);
     }
   );
 
-return (props.map(({ x, y, rot, scale }, i) => (
+  return props.map(({ x, y, rot, scale }, i) => (
     <Card
       i={i}
       x={x}
@@ -78,7 +79,7 @@ return (props.map(({ x, y, rot, scale }, i) => (
       data={data}
       bind={bind}
     />
-  )));
+  ));
 }
 
 export default Deck;
