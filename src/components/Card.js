@@ -26,7 +26,7 @@ class Card extends React.Component {
           }}
         >
           <div className="content-container">
-            <img className="round-img" src={pic} alt="pic" />
+            {pic !== "" && <img className="round-img" src={pic} alt="pic" />}
 
             <h2>{title}</h2>
 
