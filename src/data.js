@@ -54,7 +54,7 @@ export default [
   {
     title: "A little about me ...",
     text:
-      'I\'m a third year <b>software engineering student</b> at <b>McMaster University</b>.\n\n If you\'re a recruiter or just snooping (nothing wrong with a bit of snooping 👀), please know that this website <b>is not my portfolio</b>. That\'s what my <a target="_blank" href="jaymody_resume.pdf">Resume</a>, <a target="_blank" href="https://www.linkedin.com/in/jaykmody">LinkedIn</a>, and <a target="_blank" href="https://github.com/jaymody">Github</a> are for. This website is for you to get to know me outside of my career 😊.\n\nHowever, I\'d be remiss if I didn\'t mention that I was a <b>top 5</b> finalist in a <b>$1,000,000 AI competition</b> and am pursuing a career as an <b>ML Engineer/Researcher</b> (😉😉 @recruiters). Enough about my credentials though. What else am I up to?',
+      'I\'m a third year <b>software engineering student</b> at <b>McMaster University</b>.\n\n Please know that this website is just for fun, and is not a portfolio. That\'s what my <a target="_blank" href="jaymody_resume.pdf">Resume</a>, <a target="_blank" href="https://www.linkedin.com/in/jaykmody">LinkedIn</a>, and <a target="_blank" href="https://github.com/jaymody">Github</a> are for :).\n\nHowever, I\'d be remiss if I didn\'t mention that I was a <b>top 5 finalist</b> in a <b>$1,000,000 AI competition</b> and am pursuing a career as an <b>ML Engineer/Researcher</b>.\n\nIf you want to collaborate, think I can add value, or just want to have a chat, reach out to me at my <a href=mailto:JayKMody@gmail.com>email</a> (I check my inbox daily, so expect to hear back promptly). Enough about my credentials, what else am I up to?',
     pic: "",
     linkstyle: "ilink",
     links: [],
@@ -89,7 +89,7 @@ export default [
   {
     title: "Reader",
     text:
-      "I recently finished reading <b>Atomic Habits</b> by James Clear (great read for those looking to get their 💩 together). \n\nI'm currently cracking away at <b>The Coddling of the American Mind</b>.\n\nI'm hoping to get around to reading the Lord of the Rings trilogy (and the hobbit), since I\"m a huge fan of the movies.",
+      "I recently finished reading <b>Atomic Habits</b> by James Clear (great read for those looking to get their 💩 together). \n\nI'm currently cracking away at <b>The Coddling of the American Mind</b>. I really enjoy trying to understand how people think, and this book does a really great job of demonstrating the negative effects of overprotection and social media and how it's changing us in ways that we really ougtha be worried about.",
     pic:
       "https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png",
     linkstyle: "ilink",
@@ -101,7 +101,7 @@ export default [
   {
     title: "StackOverflow",
     text:
-      "If you've ever had your <b>python</b> question answered on StackOverflow, check the responders user tag, there's a very tiny (but non-zero!) chance it might be me!\n\nIt wouldn't be an exaggeration to say StackOverflow has done more for my career than my education (no shade to McMaster University, it's an awesome school!), so I oughta give back to the community that is carrying my career and education on it's back.",
+      "If you've ever had your <b>python</b> question answered on StackOverflow, check the responders user tag, there's a very tiny (but non-zero!) chance it might be me!\n\nIt wouldn't be an exaggeration to say StackOverflow has done more for my career than my education (no shade to McMaster University, it's an awesome school!), so in my spare time, I sometimes go on StackOverflow and answer people's presssing programming questions.",
     pic:
       "https://cdn4.iconfinder.com/data/icons/miu-gloss-social/60/stackoverflow-512.png",
     linkstyle: "ilink",
