@@ -54,7 +54,7 @@ export default [
   {
     title: "A little about me ...",
     text:
-      'I\'m a third year <b>software engineering student</b> at <b>McMaster University</b>.\n\n Please know that this website is just for fun, and is not a portfolio. That\'s what my <a target="_blank" href="jaymody_resume.pdf">Resume</a>, <a target="_blank" href="https://www.linkedin.com/in/jaykmody">LinkedIn</a>, and <a target="_blank" href="https://github.com/jaymody">Github</a> are for :).\n\nHowever, I\'d be remiss if I didn\'t mention that I was a <b>top 5 finalist</b> in a <b>$1,000,000 AI competition</b> and am pursuing a career as an <b>ML Engineer/Researcher</b>.\n\nIf you want to collaborate, think I can add value, or just want to have a chat, reach out to me at my <a href=mailto:JayKMody@gmail.com>email</a> (I check my inbox daily, so expect to hear back promptly). Enough about my credentials, what else am I up to?',
+      'I\'m a third year <b>software engineering student</b> at <b>McMaster University</b>.\n\n Please know that this website is just for fun, and is not a portfolio. That\'s what my <a target="_blank" href="jaymody_resume.pdf">Resume</a>, <a target="_blank" href="https://www.linkedin.com/in/jaykmody">LinkedIn</a>, and <a target="_blank" href="https://github.com/jaymody">Github</a> are for :).\n\nHowever, I\'d be remiss if I didn\'t mention that I was a <b>top 5 finalist</b> in a <b>$1,000,000 AI competition</b> and want to work with interesting people to tackle interesting problems.\n\nIf you want to collaborate, think I can add value, or just want to have a chat, reach out to me at my <a href=mailto:JayKMody@gmail.com>email</a> (or schedule a chat with me using the blue button in the bottom right). Enough about my credentials, what else am I up to?',
     pic: "",
     linkstyle: "ilink",
     links: [],
@@ -63,7 +63,7 @@ export default [
 
   ////////// Music //////////
   {
-    title: "Musician",
+    title: "🎵🎵🎵",
     text:
       "I play a lot of different instruments, but as of late I'm really enjoying picking up my <b>guitar</b> 🎸. I'm currently learning how to solo over various chord progressions popular in <b>classic rock</b> and <b>blues</b> (I'm a massive <b>Led Zeppelin</b> fan).\n\nIn high school, I was part of a specialized musical arts program where I was <b>double bass</b> major for 4 years (aka big cello). Here's me performing <a target=\"_blank\" href=\"https://youtu.be/4nVHOQA9EjM\">Air on the G String by Bach</a> on the double bass.",
     pic: "images/music.png",
@@ -87,9 +87,9 @@ export default [
 
   ////////// Reader //////////
   {
-    title: "Reader",
+    title: "Books are cheatcodes for life",
     text:
-      "I recently finished reading <b>Atomic Habits</b> by James Clear (great read for those looking to get their 💩 together). \n\nI'm currently cracking away at <b>The Coddling of the American Mind</b>. I really enjoy trying to understand how people think, and this book does a really great job of demonstrating the negative effects of overprotection and social media and how it's changing us in ways that we really ougtha be worried about.",
+      "I recently finished reading <b>Atomic Habits</b> by James Clear (great read for those looking to get their 💩 together). \n\nI'm currently cracking away at <b>Coddling of the American Mind</b>, a book about how bad ideas with good intentions are ruining a generation.\n\nIf you have any recommendations for books/articles that really shifted the way you think (or just a good fiction book tbh), drop em in my <a href=mailto:JayKMody@gmail.com>email</a>, I'd be super grateful :).",
     pic:
       "https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png",
     linkstyle: "ilink",
@@ -99,9 +99,9 @@ export default [
 
   ////////// StackOverflow //////////
   {
-    title: "StackOverflow",
+    title: "segmentation fault 11",
     text:
-      "If you've ever had your <b>python</b> question answered on StackOverflow, check the responders user tag, there's a very tiny (but non-zero!) chance it might be me!\n\nIt wouldn't be an exaggeration to say StackOverflow has done more for my career than my education (no shade to McMaster University, it's an awesome school!), so in my spare time, I sometimes go on StackOverflow and answer people's presssing programming questions.",
+      "If you've ever had your <b>python</b> question answered on StackOverflow, check the responders user tag, there's a very tiny (but non-zero!) chance it might be me!\n\nIt wouldn't be an exaggeration to say <b>StackOverflow</b> has done more for my career than my education (no shade to McMaster University, it's an awesome school!), so in my spare time, I sometimes go on StackOverflow and answer people's presssing programming questions.",
     pic:
       "https://cdn4.iconfinder.com/data/icons/miu-gloss-social/60/stackoverflow-512.png",
     linkstyle: "ilink",
