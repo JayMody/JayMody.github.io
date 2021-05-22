@@ -30,7 +30,7 @@ export default [
       },
       {
         text: "",
-        url: "jaymody_resume.pdf",
+        url: "resume.pdf",
         icon: "fas fa-file",
       },
     ],
@@ -54,7 +54,7 @@ export default [
   {
     title: "A little about me ...",
     text:
-      'I\'m a third year <b>software engineering student</b> at <b>McMaster University</b>.\n\n Please know that this website is just for fun, and is not a portfolio. That\'s what my <a target="_blank" href="jaymody_resume.pdf">Resume</a>, <a target="_blank" href="https://www.linkedin.com/in/jaykmody">LinkedIn</a>, and <a target="_blank" href="https://github.com/jaymody">Github</a> are for :).\n\nHowever, I\'d be remiss if I didn\'t mention that I was a <b>top 5 finalist</b> in a <b>$1,000,000 AI competition</b> and want to work with interesting people to tackle interesting problems.\n\nIf you want to collaborate, think I can add value, or just want to have a chat, reach out to me at my <a href=mailto:JayKMody@gmail.com>email</a> (or schedule a chat with me using the blue button in the bottom right). Enough about my credentials, what else am I up to?',
+      'I\'m a third year <b>software engineering student</b> at <b>McMaster University</b>.\n\n Please know that this website is just for fun, and is not a portfolio. That\'s what my <a target="_blank" href="resume.pdf">Resume</a>, <a target="_blank" href="https://www.linkedin.com/in/jaykmody">LinkedIn</a>, and <a target="_blank" href="https://github.com/jaymody">Github</a> are for :).\n\nHowever, I\'d be remiss if I didn\'t mention that I was a <b>top 5 finalist</b> in a <b>$1,000,000 AI competition</b> and want to work with interesting people to tackle interesting problems.\n\nIf you want to collaborate, think I can add value, or just want to have a chat, reach out to me at my <a href=mailto:JayKMody@gmail.com>email</a> (or schedule a chat with me using the blue button in the bottom right). Enough about my credentials, what else am I up to?',
     pic: "",
     linkstyle: "ilink",
     links: [],
